@@ -9,8 +9,22 @@ body, html {
     line-height: 1.6;
 }
 img{width: 100%;}
+section ul,ol{
+    padding-left: 5%;
+}
 nav img{
     width:auto;
+}
+h1{
+    padding: 10px 0;
+    font-size: 2.5rem;
+    text-transform: uppercase ;
+}
+h2{
+    padding: 10px 0;
+    font-size: 2rem;
+    text-transform: uppercase ;
+    
 }
 .navbar {
     padding:0 5%;
@@ -48,7 +62,6 @@ section {
 section:nth-of-type(even) {
     background-color: #FFFFF2;
 }
-
 footer {
     text-align: center;
     padding: 10px 0;
