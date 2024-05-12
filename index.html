@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Non-Medical Determinants of Health</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/chart3.js"></script>
+
 </head>
 
 <body>
@@ -26,7 +31,6 @@
     </header>
     <main>
         <section id="home" class="hero">
-            <img src="images/hero1.png" alt="">
             <h1>Non-Medical Determinants of Health</h1>
             <p>This project is designed specifically for university students pursuing degrees in public health,
                 sociology, environmental studies, and data science. Through the use of comprehensive data
@@ -66,6 +70,8 @@
         </section>
         <section id="chart1">
             <h2>Trends in Health-Related Lifestyle Choices</h2>
+            <div id="chart1"></div>
+
             <h3>1. Purpose</h3>
             <p>
                 The chart aims to compare critical health factors over the last decade. These factors include the
@@ -89,35 +95,64 @@
             <h2>Impact of Tobacco and Alcohol on Obesity Levels</h2>
             <h3>1. Purpose</h3>
             <p>
-                The scatter plot aims to analyze the impact of specific behaviors, notably the consumption of tobacco and alcohol, on obesity levels within a population.
+                The scatter plot aims to analyze the impact of specific behaviors, notably the consumption of tobacco
+                and alcohol, on obesity levels within a population.
             </p>
             <h3>2. Data Representation</h3>
             <ul>
-                <li>X-Axis: The X-axis is likely to represent the consumption level or frequency of tobacco or alcohol usage.</li>
-                <li>Y-Axis: The Y-axis indicates obesity levels, possibly measured through a metric like BMI (Body Mass Index) or percentage of body fat.</li>
+                <li>X-Axis: The X-axis is likely to represent the consumption level or frequency of tobacco or alcohol
+                    usage.</li>
+                <li>Y-Axis: The Y-axis indicates obesity levels, possibly measured through a metric like BMI (Body Mass
+                    Index) or percentage of body fat.</li>
             </ul>
             <h3>3. Plot Characteristics</h3>
             <ul>
-                <li>Data Points: Each point on the scatter plot represents an individual or aggregated data set showing the relationship between the usage of tobacco or alcohol and the corresponding obesity level.</li>
-                <li>Annotations: The sketch suggests annotations or highlighted areas to draw attention to significant trends or outliers in the data.
+                <li>Data Points: Each point on the scatter plot represents an individual or aggregated data set showing
+                    the relationship between the usage of tobacco or alcohol and the corresponding obesity level.</li>
+                <li>Annotations: The sketch suggests annotations or highlighted areas to draw attention to significant
+                    trends or outliers in the data.
                 </li>
             </ul>
         </section>
         <section id="chart3">
             <h2>Impact of Tobacco and Alcohol on Obesity Levels</h2>
+            <div>
+                <label for="yearSelect">Select Year:</label>
+                <select id="yearSelect">
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <p id="chart3"></p>
+            </div>
             <h3>1. Purpose</h3>
             <p>
-                this sketch serves as a strategic plan for developing an interactive visualization tool that elucidates gender-specific trends in lifestyle choices. This tool aims to provide insights into how different lifestyle factors are adopted by men and women, potentially influencing targeted health interventions and policies.
+                this sketch serves as a strategic plan for developing an interactive visualization tool that elucidates
+                gender-specific trends in lifestyle choices. This tool aims to provide insights into how different
+                lifestyle factors are adopted by men and women, potentially influencing targeted health interventions
+                and policies.
             </p>
             <h3>2. Data Representation</h3>
             <ul>
                 <li>X-Axis: Represents different lifestyle factors (e.g., Alcohol, Fruits, Tobacco, Obesity).</li>
-                <li>Indicates the level or frequency of these factors, potentially measured in units like servings, cigarettes smoked, alcohol units consumed, or BMI categories.</li>
+                <li>Indicates the level or frequency of these factors, potentially measured in units like servings,
+                    cigarettes smoked, alcohol units consumed, or BMI categories.</li>
             </ul>
             <h3>3. Stacked Bar Characteristics</h3>
             <ul>
-                <li>Stacked Bars: Each bar in the chart is divided into segments that represent data for men and women. This stacking approach allows for a direct comparison of how each gender engages with these lifestyle factors.</li>
-                <li>Color Coding: The bars are likely color-coded (e.g., yellow for men and blue for women) to easily differentiate the data between genders.
+                <li>Stacked Bars: Each bar in the chart is divided into segments that represent data for men and women.
+                    This stacking approach allows for a direct comparison of how each gender engages with these
+                    lifestyle factors.</li>
+                <li>Color Coding: The bars are likely color-coded (e.g., yellow for men and blue for women) to easily
+                    differentiate the data between genders.
                 </li>
             </ul>
         </section>

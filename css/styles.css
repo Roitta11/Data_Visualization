@@ -71,7 +71,6 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #012045;
 }
 
 .nav-links {
@@ -87,9 +86,10 @@ h2{
     border-bottom: 5px solid #FFA791;
 }
 .nav-links a {
-    color: #fff;
+    color: #012045;
     text-decoration: none;
 }
+
 .hero {
     padding: 20px;
     background-color: #fff;
