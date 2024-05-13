@@ -52,13 +52,45 @@ img{width: 100%;}
 section ul,ol{
     padding-left: 5%;
 }
+
+header {
+    background-color: #012045;
+}
+
+.intro{
+    color: #EEF5FF;
+    display: flex;
+    justify-content: center;
+}
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 10px;
+}
+
 nav img{
     width:auto;
 }
+ /* Sticky navbar styles */
+ .navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h1{
+    text-align: center;
     padding: 10px 0;
     font-size: 2.5rem;
     text-transform: uppercase ;
+    color: aliceblue;
 }
 h2{
     padding: 10px 0;
@@ -89,6 +121,7 @@ h2{
     color: #012045;
     text-decoration: none;
 }
+
 
 .hero {
     padding: 20px;
