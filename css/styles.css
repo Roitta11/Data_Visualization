@@ -62,13 +62,19 @@ header {
     display: flex;
     justify-content: center;
 }
-.intro-content {
+.intro-content{
     display: flex;
     justify-content: space-between;
     width: 30%;
     padding: 10px;
 }
-
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    width: 80%;
+}
 nav img{
     width:auto;
 }
@@ -84,7 +90,6 @@ nav img{
     justify-content: space-between;
     align-items: center;
 }
-
 h1{
     text-align: center;
     padding: 10px 0;
@@ -140,4 +145,79 @@ footer {
     padding: 10px 0;
     background-color: #012045;
     color: white;
+}
+
+
+/*HEADMAP*/
+.map-background{
+   text-align: center;
+}
+.map-background .aside {
+    display: flex;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.controls div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select, button {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.country-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.country-item {
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+}
+
+.country-item button {
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.country-item button:hover {
+    text-decoration: underline;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background: lightsteelblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
