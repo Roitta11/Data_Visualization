@@ -73,7 +73,7 @@ header {
     justify-content: center;
 }
 .col{
-    width: 80%;
+    padding:20px;
 }
 nav img{
     width:auto;
@@ -147,6 +147,14 @@ footer {
     color: white;
 }
 
+/*VISUALIASION*/
+.visual .col{
+    width: 30%;
+}
+
+.visual .col img{
+    height: 200px;
+}
 
 /*HEADMAP*/
 .map-background{
