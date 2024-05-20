@@ -94,7 +94,6 @@
                 through three main types of analysis:</p><br>
             <div class="visual row">
                 <div class="col">
-                    <img src="images/TimeSeries.jpg" alt="">
                     <h4>1. Time Series Analysis</h4>
                     <ul>
                         <li>Explore how tobacco and alcohol consumption have evolved over the years and investigate the
@@ -104,7 +103,6 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <img src="images/maxresdefault.jpg" alt="">
                     <h4>2. Correlation Visualizations</h4>
                     <ul>
                         <li>Investigate the relationship between tobacco and alcohol consumption and health outcomes,
@@ -115,7 +113,6 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <img src="images/comparative.jpg" alt="">
                     <h4>3. Comparative Analysis</h4>
                     <ul>
                         <li>Analyze differences in health behaviors and outcomes across genders and over time, providing
@@ -268,7 +265,7 @@
 
         </section>
         <section id="body-chart3">
-            <h2>Impact of Tobacco and Alcohol on Obesity Levels</h2>
+            <h2>Comparative Analysis of Key Economic Indicators Across Countries</h2>
             <div class="map-background">
                 <div class="aside">
                     <label style="padding-right: 10px;" for="yearSelect3">Select Year:
@@ -300,28 +297,32 @@
                     <div class="tooltip3" id="tooltip" style="opacity:0;"></div>
                 </div>
             </div>
-            <h3>1. Purpose</h3>
+            <h3>Purpose</h3>
             <p>
-                this sketch serves as a strategic plan for developing an interactive visualization tool that elucidates
-                gender-specific trends in lifestyle choices. This tool aims to provide insights into how different
-                lifestyle factors are adopted by men and women, potentially influencing targeted health interventions
-                and policies.
+                The aim of this visualization is to illustrate the economic performance of various countries by displaying key economic indicators through a stacked bar chart. This chart emphasizes the importance of comparing multiple economic factors to gain a comprehensive understanding of a country's economic health and performance. The visualization allows users to analyze trends and differences in economic indicators across different countries and selected years.
             </p>
-            <h3>2. Data Representation</h3>
+            <div class="row">
+                <div class="col"><h3>Economic Indicators Covered</h3>
             <ul>
-                <li>X-Axis: Represents different lifestyle factors (e.g., Alcohol, Fruits, Tobacco, Obesity).</li>
-                <li>Indicates the level or frequency of these factors, potentially measured in units like servings,
-                    cigarettes smoked, alcohol units consumed, or BMI categories.</li>
+                <li><strong>GDP (ECONPIBN):</strong> Gross Domestic Product, representing the overall economic output of a country.</li>
+                <li><strong>Consumption (ECONAICO):</strong> Reflects the total consumption of goods and services within a country.</li>
+                <li><strong>Exports (ECONFCEX):</strong> Represents the total value of goods and services exported by a country.</li>
+            </ul></div>
+                <div class="col">  <h3>Data Representation</h3>
+            <ul>
+                <li><strong>X-Axis:</strong>Represents the selected countries from the dataset.</li>
+                <li><strong>Y-Axis:</strong> Represents the economic indices (GDP, Consumption, Exports) in the unit INDICEIP.</li>
             </ul>
-            <h3>3. Stacked Bar Characteristics</h3>
+            <h3>Stacked Bar Characteristics</h3>
             <ul>
-                <li>Stacked Bars: Each bar in the chart is divided into segments that represent data for men and women.
-                    This stacking approach allows for a direct comparison of how each gender engages with these
-                    lifestyle factors.</li>
-                <li>Color Coding: The bars are likely color-coded (e.g., yellow for men and blue for women) to easily
-                    differentiate the data between genders.
+                <li><strong>Data Points:</strong> Each bar in the stacked bar chart represents the economic indicators for a specific country in a selected year. The height of each segment in the bar indicates the value of the respective economic indicator.</li>
+                <li><strong>Color Coding:</strong> Each economic indicator (GDP, Consumption, Exports) is represented by a distinct color to differentiate between them. The colors are consistent across all countries for easy comparison.
                 </li>
-            </ul>
+                <li><strong>Interactivity:</strong> Hovering over a bar segment shows a tooltip with detailed information about the country, the economic indicator, and its value, formatted to one decimal place.</li>
+            </ul></div>
+            </div>
+            
+          
         </section>
     </main>
     <footer>
