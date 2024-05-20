@@ -1,106 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pie Chart Example</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <style>
-        .chart-title {
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .tooltip {
-            position: absolute;
-            text-align: center;
-            padding: 6px;
-            font: 12px sans-serif;
-            background: lightsteelblue;
-            border: 0px;
-            border-radius: 8px;
-            pointer-events: none;
-        }
-    </style>
+    <title>Stacked Bar Chart</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
-
 <body>
-    <div class="chart-title">Distribution of Lifestyle Factors</div>
-    <div id="chart"></div>
-    <div class="tooltip" id="tooltip" style="opacity:0;"></div>
+    <label for="year-select">Choose a Year:</label>
+    <select id="year-select"></select>
+
+    <label for="country-select">Choose a Country:</label>
+    <select id="country-select"></select>
+
+    <div id="my_dataviz"></div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const width = 450,
-                  height = 450,
-                  margin = 40;
+        // Set the dimensions and margins of the graph
+        var margin = {top: 30, right: 30, bottom: 70, left: 60},
+            width = 460 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
 
-            const radius = Math.min(width, height) / 2 - margin;
+        // Append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+          .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform",
+                  "translate(" + margin.left + "," + margin.top + ")");
 
-            const svg = d3.select("#chart")
-                .append("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .append("g")
-                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+        // Load the data
+        d3.csv("https://raw.githubusercontent.com/yourpath/data.csv", function(data) {
+            var subgroups = ['ECONPIBN', 'ECONAICO', 'ECONFCEX'];
+            var allGroup = d3.map(data, function(d){return(d.Year)}).keys()
+            var allCountries = d3.map(data, function(d){return(d.Country)}).keys()
 
-            const tooltip = d3.select("#tooltip");
+            // A color scale: one color for each group
+            var color = d3.scaleOrdinal()
+              .domain(subgroups)
+              .range(['#e41a1c','#377eb8','#4daf4a'])
 
-            const data = {
-                "Alcohol Consumption": 30,
-                "Tobacco Use": 20,
-                "Fruit Intake": 15,
-                "Vegetable Intake": 35
-            };
+            // Add the options to the year dropdown
+            d3.select("#year-select")
+              .selectAll('myOptions')
+              .data(allGroup)
+              .enter()
+              .append('option')
+              .text(function (d) { return d; }) // text showed in the menu
+              .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
-            const color = d3.scaleOrdinal()
-                .domain(data)
-                .range(d3.schemeCategory10);
+            // Add the options to the country dropdown
+            d3.select("#country-select")
+              .selectAll('myOptions')
+              .data(allCountries)
+              .enter()
+              .append('option')
+              .text(function (d) { return d; }) // text showed in the menu
+              .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
-            const pie = d3.pie()
-                .value(d => d.value);
+            function update(selectedGroup, selectedCountry) {
+                var dataFilter = data.filter(function(d){return d.Year==selectedGroup && d.Country==selectedCountry})
 
-            const data_ready = pie(d3.entries(data));
+                // Update the X axis
+                svg.selectAll(".myXaxis").remove();
+                var x = d3.scaleBand()
+                  .range([ 0, width ])
+                  .domain(dataFilter.map(function(d) { return d.VAR; }))
+                  .padding(0.2);
+                svg.append("g")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(d3.axisBottom(x))
+                  .attr("class","myXaxis")
 
-            svg.selectAll('whatever')
-                .data(data_ready)
-                .enter()
-                .append('path')
-                .attr('d', d3.arc()
-                    .innerRadius(0)
-                    .outerRadius(radius)
-                )
-                .attr('fill', d => color(d.data.key))
-                .attr("stroke", "white")
-                .style("stroke-width", "2px")
-                .on("mouseover", function(event, d) {
-                    tooltip.transition()
-                        .duration(200)
-                        .style("opacity", .9);
-                    tooltip.html(d.data.key + ": " + d.data.value)
-                        .style("left", (event.pageX) + "px")
-                        .style("top", (event.pageY - 28) + "px");
-                })
-                .on("mouseout", function(d) {
-                    tooltip.transition()
-                        .duration(500)
-                        .style("opacity", 0);
-                });
+                // Update the Y axis
+                svg.selectAll(".myYaxis").remove();
+                var y = d3.scaleLinear()
+                  .domain([0, d3.max(dataFilter, function(d) { return +d.Value; })])
+                  .range([ height, 0 ]);
+                svg.append("g")
+                  .call(d3.axisLeft(y))
+                  .attr("class","myYaxis")
 
-            svg.selectAll('whatever')
-                .data(data_ready)
-                .enter()
-                .append('text')
-                .text(d => d.data.key)
-                .attr("transform", d => "translate(" + d3.arc()
-                    .innerRadius(0)
-                    .outerRadius(radius)
-                    .centroid(d) + ")")
-                .style("text-anchor", "middle")
-                .style("font-size", 12);
+                // Create the u variable
+                var u = svg.selectAll("rect")
+                  .data(dataFilter)
+
+                u
+                  .join("rect") // Add a new rect for each new elements
+                  .transition()
+                  .duration(1000)
+                    .attr("x", function(d) { return x(d.VAR); })
+                    .attr("y", function(d) { return y(d.Value); })
+                    .attr("width", x.bandwidth())
+                    .attr("height", function(d) { return height - y(d.Value); })
+                    .attr("fill", function(d) { return color(d.VAR); })
+            }
+
+            // Initialize plot
+            update(allGroup[0], allCountries[0]);
+
+            // When the button is changed, run the updateChart function
+            d3.select("#year-select").on("change", function(event,d) {
+                var selectedOption = d3.select(this).property("value")
+                var countrySelected = d3.select("#country-select").property("value")
+                update(selectedOption, countrySelected)
+            })
+            
+            // When the country is changed, run the updateChart function
+            d3.select("#country-select").on("change", function(event,d) {
+                var selectedOption = d3.select(this).property("value")
+                var yearSelected = d3.select("#year-select").property("value")
+                update(yearSelected, selectedOption)
+            })
         });
     </script>
 </body>
-
 </html>
