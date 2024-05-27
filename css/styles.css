@@ -90,18 +90,21 @@ nav img{
     justify-content: space-between;
     align-items: center;
 }
+
 h1{
     text-align: center;
-    padding: 10px 0;
+    padding: 5% 5% 0 5%;
     font-size: 2.5rem;
     text-transform: uppercase ;
-    color: aliceblue;
+    color: #fff !important;
 }
 h2{
+    margin-bottom: 60px;
     padding: 10px 0;
     font-size: 2rem;
     text-transform: uppercase ;
-    
+    border-left: 5px solid #012045;
+    padding-left: 20px;
 }
 .navbar {
     padding:0 5%;
@@ -132,10 +135,25 @@ h2{
     padding: 20px;
     background-color: #fff;
 }
-.hero h1{color: #012045;}
-
 section {
     padding: 20px;
+}
+
+.about{
+    background-image: url(../images/bg-about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+}
+.about h3{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #012045;
+}
+.about .row .col{
+    margin:10px;
+    padding:30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 section:nth-of-type(even) {
     background-color: #EEF5FF;
@@ -148,16 +166,52 @@ footer {
 }
 
 /*VISUALIASION*/
+.visualisation{
+    background-image: url(../images/linechart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+    color: #012045;
+}
+.visualisation h2{
+    margin-bottom: 30px;
+    border-left: 5px solid #012045;
+    padding-left: 20px;
+}
 .visual .col{
     width: 30%;
 }
 
 /*HEADMAP*/
+#body-chart2{
+    background-image: url(../images/disease.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+    color: #012045;
+}
+.body-chart2-text{
+    margin-bottom: 60px ;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+}
 .map-background{
+    margin-bottom: 6%;
+    padding:20px;
    text-align: center;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
 }
 .map-background .aside {
     display: flex;
+}
+
+.body-chart2 .col{
+    margin: 20px;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
 }
 .controls {
     display: flex;
@@ -224,4 +278,13 @@ button:hover {
     border-radius: 5px;
     pointer-events: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+#body-chart3{
+    background-image: url(../images/money.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+    color: #012045;
 }

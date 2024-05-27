@@ -1,119 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stacked Bar Chart</title>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>Non-Medical Determinants of Health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/charts.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #012045;
+            color: #EEF5FF;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+        }
+
+        .navbar img {
+            width: auto;
+            height: 50px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            color: #EEF5FF;
+            text-decoration: none;
+            padding-bottom: 5px;
+            border-bottom: 3px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            border-bottom: 3px solid #FFA791;
+        }
+
+        .intro {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 5%;
+            align-items: center;
+        }
+
+        .intro-content {
+            width: 45%;
+        }
+
+        .intro-content p {
+            margin-bottom: 20px;
+        }
+
+        .intro img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3 {
+            margin: 10px 0;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 5%;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section:nth-of-type(even) {
+            background-color: #EEF5FF;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .col {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #012045;
+            color: #EEF5FF;
+        }
+
+        .btn-1, .btn-2, .btn-3, .btn-4 {
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #012045;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover {
+            background-color: #FFA791;
+        }
+
+        .chart {
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+        }
+
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            background: lightsteelblue;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            pointer-events: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    </style>
 </head>
+
 <body>
-    <label for="year-select">Choose a Year:</label>
-    <select id="year-select"></select>
+    <header>
+        <nav class="navbar">
+            <img src="images/logo.png" alt="Swinburne University Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#visualisation">Visualisation</a></li>
+                <li><a href="#chart1">Chart 1</a></li>
+                <li><a href="#chart2">Chart 2</a></li>
+                <li><a href="#chart3">Chart 3</a></li>
+            </ul>
+        </nav>
+        <h1>Non-Medical Determinants of Health</h1>
+    </header>
 
-    <label for="country-select">Choose a Country:</label>
-    <select id="country-select"></select>
+    <main>
+        <div class="intro">
+            <div class="intro-content">
+                <p>This project is designed specifically for university students pursuing degrees in public health, sociology, environmental studies, and data science. Through the use of comprehensive data visualizations, our goal is to provide a deep understanding of the non-medical determinants of health.</p>
+                <p>These visualizations explore the intricate relationships and trends within various health-related data sets, offering students a practical, engaging, and educational experience.</p>
+            </div>
+            <img src="images/hero.png" alt="Health Data Visualization">
+        </div>
 
-    <div id="my_dataviz"></div>
+        <section id="about">
+            <h2>About This Project</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Overview</h3>
+                    <p>This project is designed specifically for university students pursuing degrees in public health, sociology, environmental studies, and data science. Through the use of comprehensive data visualizations, our goal is to provide a deep understanding of the non-medical determinants of health. These visualizations explore the intricate relationships and trends within various health-related data sets, offering students a practical, engaging, and educational experience.</p>
+                </div>
+                <div class="col">
+                    <h3>Educational Benefits</h3>
+                    <p>By engaging with these visualizations, students can enhance their educational experience, supporting their coursework and research projects. The insights gained are designed to aid in evidence-based decision-making and foster a deeper understanding of the factors that influence public health. This initiative not only benefits individual learning but also contributes to the broader academic community by providing valuable data and insights that can influence future public health policies and interventions.</p>
+                </div>
+            </div>
+        </section>
 
-    <script>
-        // Set the dimensions and margins of the graph
-        var margin = {top: 30, right: 30, bottom: 70, left: 60},
-            width = 460 - margin.left - margin.right,
-            height = 400 - margin.top - margin.bottom;
+        <section id="visualisation">
+            <h2>Visualisation</h2>
+            <h3>Purpose of the Visualizations</h3>
+            <p>The visualizations in this project serve to illuminate the complex dynamics of health determinants through three main types of analysis:</p>
+            <div class="row">
+                <div class="col">
+                    <h4>1. Time Series Analysis</h4>
+                    <ul>
+                        <li>Explore how tobacco and alcohol consumption have evolved over the years and investigate the factors influencing these trends.</li>
+                        <li>Examine changes in nutritional intake over time and assess how these changes align with recommended dietary guidelines.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>2. Correlation Visualizations</h4>
+                    <ul>
+                        <li>Investigate the relationship between tobacco and alcohol consumption and health outcomes, analyzing how these relationships vary over time and across different demographics.</li>
+                        <li>Delve into the correlations between nutritional intake and obesity rates, exploring variations by year and demographic factors.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>3. Comparative Analysis</h4>
+                    <ul>
+                        <li>Analyze differences in health behaviors and outcomes across genders and over time, providing insights into the impact of these disparities on public health.</li>
+                        <li>Review annual changes in key health indicators like smoking rates, alcohol consumption, and obesity rates to gauge the effectiveness of public health interventions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        // Append the svg object to the body of the page
-        var svg = d3.select("#my_dataviz")
-          .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-            .attr("transform",
-                  "translate(" + margin.left + "," + margin.top + ")");
-
-        // Load the data
-        d3.csv("https://raw.githubusercontent.com/yourpath/data.csv", function(data) {
-            var subgroups = ['ECONPIBN', 'ECONAICO', 'ECONFCEX'];
-            var allGroup = d3.map(data, function(d){return(d.Year)}).keys()
-            var allCountries = d3.map(data, function(d){return(d.Country)}).keys()
-
-            // A color scale: one color for each group
-            var color = d3.scaleOrdinal()
-              .domain(subgroups)
-              .range(['#e41a1c','#377eb8','#4daf4a'])
-
-            // Add the options to the year dropdown
-            d3.select("#year-select")
-              .selectAll('myOptions')
-              .data(allGroup)
-              .enter()
-              .append('option')
-              .text(function (d) { return d; }) // text showed in the menu
-              .attr("value", function (d) { return d; }) // corresponding value returned by the button
-
-            // Add the options to the country dropdown
-            d3.select("#country-select")
-              .selectAll('myOptions')
-              .data(allCountries)
-              .enter()
-              .append('option')
-              .text(function (d) { return d; }) // text showed in the menu
-              .attr("value", function (d) { return d; }) // corresponding value returned by the button
-
-            function update(selectedGroup, selectedCountry) {
-                var dataFilter = data.filter(function(d){return d.Year==selectedGroup && d.Country==selectedCountry})
-
-                // Update the X axis
-                svg.selectAll(".myXaxis").remove();
-                var x = d3.scaleBand()
-                  .range([ 0, width ])
-                  .domain(dataFilter.map(function(d) { return d.VAR; }))
-                  .padding(0.2);
-                svg.append("g")
-                  .attr("transform", "translate(0," + height + ")")
-                  .call(d3.axisBottom(x))
-                  .attr("class","myXaxis")
-
-                // Update the Y axis
-                svg.selectAll(".myYaxis").remove();
-                var y = d3.scaleLinear()
-                  .domain([0, d3.max(dataFilter, function(d) { return +d.Value; })])
-                  .range([ height, 0 ]);
-                svg.append("g")
-                  .call(d3.axisLeft(y))
-                  .attr("class","myYaxis")
-
-                // Create the u variable
-                var u = svg.selectAll("rect")
-                  .data(dataFilter)
-
-                u
-                  .join("rect") // Add a new rect for each new elements
-                  .transition()
-                  .duration(1000)
-                    .attr("x", function(d) { return x(d.VAR); })
-                    .attr("y", function(d) { return y(d.Value); })
-                    .attr("width", x.bandwidth())
-                    .attr("height", function(d) { return height - y(d.Value); })
-                    .attr("fill", function(d) { return color(d.VAR); })
-            }
-
-            // Initialize plot
-            update(allGroup[0], allCountries[0]);
-
-            // When the button is changed, run the updateChart function
-            d3.select("#year-select").on("change", function(event,d) {
-                var selectedOption = d3.select(this).property("value")
-                var countrySelected = d3.select("#country-select").property("value")
-                update(selectedOption, countrySelected)
-            })
-            
-            // When the country is changed, run the updateChart function
-            d3.select("#country-select").on("change", function(event,d) {
-                var selectedOption = d3.select(this).property("value")
-                var yearSelected = d3.select("#year-select").property("value")
-                update(yearSelected, selectedOption)
-            })
-        });
-    </script>
-</body>
-</html>
+        <section id="chart1">
+            <h2>Trends in Health-Related Lifestyle Choices</h2>
+            <div id="chart1" class="chart"></div>
+            <div>
+                <button class="btn-1" onclick="perform
