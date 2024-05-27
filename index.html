@@ -14,54 +14,60 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="js/charts.js"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <style>
         .line {
-          fill: none;
-          stroke: steelblue;
-          stroke-width: 2px;
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 2px;
         }
-      </style>
+    </style>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#visualisation">Visualisation</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Charts
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#body-chart1">Chart1</a></li>
-                      <li><a class="dropdown-item" href="#body-chart2">Chart2</a></li>
-                      <li><a class="dropdown-item" href="#body-chart3">Chart3</a></li>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#visualisation">Visualisation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Charts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#body-chart1">Chart1</a></li>
+                                <li><a class="dropdown-item" href="#body-chart2">Chart2</a></li>
+                                <li><a class="dropdown-item" href="#body-chart3">Chart3</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
         <div class="title">
             <h1>Determinants of Health</h1>
         </div>
-        
+
         <div class="intro">
             <div class="intro-content">
                 <p>This project is designed specifically for university students pursuing degrees in public health,
@@ -89,7 +95,8 @@
                         <h3>Overview</h3>
                         This project is designed specifically for university students pursuing degrees in public health,
                         sociology,
-                        environmental studies, and data science. Through the use of comprehensive data visualizations, our
+                        environmental studies, and data science. Through the use of comprehensive data visualizations,
+                        our
                         goal is
                         to provide a deep understanding of the non-medical determinants of health. These visualizations
                         explore the
@@ -104,7 +111,8 @@
                             supporting
                             their coursework and research projects. The insights gained are designed to aid in
                             evidence-based
-                            decision-making and foster a deeper understanding of the factors that influence public health.
+                            decision-making and foster a deeper understanding of the factors that influence public
+                            health.
                             This initiative not only benefits individual learning but also contributes to the broader
                             academic
                             community by providing valuable data and insights that can influence future public health
@@ -120,48 +128,55 @@
                 <h3>Purpose of the Visualizations</h3>
                 <p>The visualizations in this project serve to illuminate the complex dynamics of health determinants
                     through three main types of analysis:</p><br>
-                    <div class="card-section">
-                        <div class="card-group">
-                            <div class="card">
-                              <img src="images/linechart1.png" class="card-img-top" alt="...">
-                              <div class="card-body">
+                <div class="card-section">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="images/linechart1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
                                 <h5 class="card-title">Time Series Analysis</h5>
                                 <ul>
-                                    <li>Explore how tobacco and alcohol consumption have evolved over the years and investigate the
+                                    <li>Explore how tobacco and alcohol consumption have evolved over the years and
+                                        investigate the
                                         factors influencing these trends.</li>
-                                    <li>Examine changes in nutritional intake over time and assess how these changes align with
+                                    <li>Examine changes in nutritional intake over time and assess how these changes
+                                        align with
                                         recommended dietary guidelines.</li>
                                 </ul>
-                              </div>
                             </div>
-                            <div class="card">
-                              <img src="images/heatmap.png" class="card-img-top" alt="...">
-                              <div class="card-body">
+                        </div>
+                        <div class="card">
+                            <img src="images/heatmap.png" class="card-img-top" alt="...">
+                            <div class="card-body">
                                 <h5 class="card-title">Correlation Visualizations</h5>
                                 <ul>
-                                    <li>Investigate the relationship between tobacco and alcohol consumption and health outcomes,
-                                        analyzing how these relationships vary over time and across different demographics.
+                                    <li>Investigate the relationship between tobacco and alcohol consumption and health
+                                        outcomes,
+                                        analyzing how these relationships vary over time and across different
+                                        demographics.
                                     </li>
-                                    <li>Delve into the correlations between nutritional intake and obesity rates, exploring
+                                    <li>Delve into the correlations between nutritional intake and obesity rates,
+                                        exploring
                                         variations by year and demographic factors.</li>
                                 </ul>
-                              </div>
                             </div>
-                            <div class="card">
-                              <img src="images/stacked.png" class="card-img-top" alt="...">
-                              <div class="card-body">
+                        </div>
+                        <div class="card">
+                            <img src="images/stacked.png" class="card-img-top" alt="...">
+                            <div class="card-body">
                                 <h5 class="card-title">Comparative Analysis</h5>
                                 <ul>
-                                    <li>Analyze differences in health behaviors and outcomes across genders and over time, providing
+                                    <li>Analyze differences in health behaviors and outcomes across genders and over
+                                        time, providing
                                         insights into the impact of these disparities on public health.
                                     </li>
-                                    <li>Review annual changes in key health indicators like smoking rates, alcohol consumption, and
+                                    <li>Review annual changes in key health indicators like smoking rates, alcohol
+                                        consumption, and
                                         obesity rates to gauge the effectiveness of public health interventions.</li>
                                 </ul>
-                              </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
+                </div>
             </div>
         </section>
         <section id="body-chart1">
@@ -169,62 +184,74 @@
             <div id="chart1"></div>
             <button class="btn-1" onclick="performAction()">
                 <span class="btn-1-text">FoodFat</span>
-              </button>
+            </button>
 
-              <button class="btn-2" onclick="performAction()">
+            <button class="btn-2" onclick="performAction()">
                 <span class="btn-2-text">Alcohol</span>
-              </button>
+            </button>
 
-              <button class="btn-3" onclick="performAction()">
+            <button class="btn-3" onclick="performAction()">
                 <span class="btn-3-text">Tobacco</span>
-              </button>
+            </button>
 
-              <button class="btn-4" onclick="performAction()">
+            <button class="btn-4" onclick="performAction()">
                 <span class="btn-4-text">Fruit</span>
-              </button>
-
-            <h3>1. Purpose</h3>
+            </button>
+            <div class="body-chart1-text">  <h3>Purpose</h3>
             <p>
                 The chart aims to compare critical health factors over the last decade. These factors include the
                 consumption of alcohol, tobacco, obesity, junk food, etc.
-            </p>
-            <h3>2. Data Representation</h3>
-            <ul>
-                <li>X-Axis: Represents time, labeled by years.</li>
-                <li>Y-Axis: Represents the quantity of each factor, measured in grams per capita per day. The Y-axis
-                    scale will change based on the factor being displayed.</li>
-            </ul>
-            <h3>3. Line Characteristics</h3>
-            <ul>
-                <li>Each line on the chart represents a different health factor, such as tobacco, alcohol, fruits,
-                    vegetables, sugar, protein, calories, and vaping.</li>
-                <li>The lines are color-coded to match the labels for each factor, helping differentiate between them.
-                </li>
-            </ul>
+            </p></div>
+          
+
+            <div class="body-chart1 row">
+                <div class="col">
+                    <h3>Data Representation</h3>
+                    <ul>
+                        <li>X-Axis: Represents time, labeled by years.</li>
+                        <li>Y-Axis: Represents the quantity of each factor, measured in grams per capita per day. The
+                            Y-axis
+                            scale will change based on the factor being displayed.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Line Characteristics</h3>
+                    <ul>
+                        <li>Each line on the chart represents a different health factor, such as tobacco, alcohol,
+                            fruits,
+                            vegetables, sugar, protein, calories, and vaping.</li>
+                        <li>The lines are color-coded to match the labels for each factor, helping differentiate between
+                            them.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
         </section>
         <section id="body-chart2">
             <h2>Heatmap of Deaths by Disease and Country</h2>
             <div class="map-background">
                 <div class="aside">
                     <label style="padding-right: 10px;" for="yearSelect2">Select Year:
-                    <select id="yearSelect2" style="width: 200px;"">
+                        <select id="yearSelect2" style="width: 200px;"">
                         <option value="">Select Year</option>
                         <option value=" 2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select></label>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select></label>
                     <div>
                         <label for="countrySelect">Select Countries:
-                        <select id="countrySelect" style="width: 200px;">
-                        </select></label>
+                            <select id="countrySelect" style="width: 200px;">
+                            </select></label>
                         <button id="addCountryButton">Add</button>
 
                     </div>
@@ -305,24 +332,24 @@
             <div class="map-background">
                 <div class="aside">
                     <label style="padding-right: 10px;" for="yearSelect3">Select Year:
-                    <select id="yearSelect3" style="width: 200px;"">
+                        <select id="yearSelect3" style="width: 200px;"">
                         <option value="">Select Year</option>
                         <option value=" 2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select></label>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select></label>
                     <div>
                         <label for="countrySelect3">Select Countries:
-                        <select id="countrySelect3" style="width: 200px;">
-                        </select></label>
+                            <select id="countrySelect3" style="width: 200px;">
+                            </select></label>
                         <button id="addCountryButton3">Add</button>
 
                     </div>
@@ -334,34 +361,52 @@
                 </div>
             </div>
             <div class="body-chart3-text">
-                 <h3>Purpose</h3>
-            <p>
-                The aim of this visualization is to illustrate the economic performance of various countries by displaying key economic indicators through a stacked bar chart. This chart emphasizes the importance of comparing multiple economic factors to gain a comprehensive understanding of a country's economic health and performance. The visualization allows users to analyze trends and differences in economic indicators across different countries and selected years.
-            </p>
+                <h3>Purpose</h3>
+                <p>
+                    The aim of this visualization is to illustrate the economic performance of various countries by
+                    displaying key economic indicators through a stacked bar chart. This chart emphasizes the importance
+                    of comparing multiple economic factors to gain a comprehensive understanding of a country's economic
+                    health and performance. The visualization allows users to analyze trends and differences in economic
+                    indicators across different countries and selected years.
+                </p>
             </div>
-           
+
             <div class="row">
-                <div class="col"><h3>Economic Indicators Covered</h3>
-            <ul>
-                <li><strong>GDP (ECONPIBN):</strong> Gross Domestic Product, representing the overall economic output of a country.</li>
-                <li><strong>Consumption (ECONAICO):</strong> Reflects the total consumption of goods and services within a country.</li>
-                <li><strong>Exports (ECONFCEX):</strong> Represents the total value of goods and services exported by a country.</li>
-            </ul></div>
-                <div class="col">  <h3>Data Representation</h3>
-            <ul>
-                <li><strong>X-Axis:</strong>Represents the selected countries from the dataset.</li>
-                <li><strong>Y-Axis:</strong> Represents the economic indices (GDP, Consumption, Exports) in the unit INDICEIP.</li>
-            </ul>
-            <h3>Stacked Bar Characteristics</h3>
-            <ul>
-                <li><strong>Data Points:</strong> Each bar in the stacked bar chart represents the economic indicators for a specific country in a selected year. The height of each segment in the bar indicates the value of the respective economic indicator.</li>
-                <li><strong>Color Coding:</strong> Each economic indicator (GDP, Consumption, Exports) is represented by a distinct color to differentiate between them. The colors are consistent across all countries for easy comparison.
-                </li>
-                <li><strong>Interactivity:</strong> Hovering over a bar segment shows a tooltip with detailed information about the country, the economic indicator, and its value, formatted to one decimal place.</li>
-            </ul></div>
+                <div class="col">
+                    <h3>Economic Indicators Covered</h3>
+                    <ul>
+                        <li><strong>GDP (ECONPIBN):</strong> Gross Domestic Product, representing the overall economic
+                            output of a country.</li>
+                        <li><strong>Consumption (ECONAICO):</strong> Reflects the total consumption of goods and
+                            services within a country.</li>
+                        <li><strong>Exports (ECONFCEX):</strong> Represents the total value of goods and services
+                            exported by a country.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Data Representation</h3>
+                    <ul>
+                        <li><strong>X-Axis:</strong>Represents the selected countries from the dataset.</li>
+                        <li><strong>Y-Axis:</strong> Represents the economic indices (GDP, Consumption, Exports) in the
+                            unit INDICEIP.</li>
+                    </ul>
+                    <h3>Stacked Bar Characteristics</h3>
+                    <ul>
+                        <li><strong>Data Points:</strong> Each bar in the stacked bar chart represents the economic
+                            indicators for a specific country in a selected year. The height of each segment in the bar
+                            indicates the value of the respective economic indicator.</li>
+                        <li><strong>Color Coding:</strong> Each economic indicator (GDP, Consumption, Exports) is
+                            represented by a distinct color to differentiate between them. The colors are consistent
+                            across all countries for easy comparison.
+                        </li>
+                        <li><strong>Interactivity:</strong> Hovering over a bar segment shows a tooltip with detailed
+                            information about the country, the economic indicator, and its value, formatted to one
+                            decimal place.</li>
+                    </ul>
+                </div>
             </div>
-            
-          
+
+
         </section>
     </main>
     <footer>
