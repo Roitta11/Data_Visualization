@@ -144,6 +144,13 @@ section {
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 5%;
+
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 .about h3{
     margin-bottom: 20px;
@@ -167,11 +174,9 @@ footer {
 
 /*VISUALIASION*/
 .visualisation{
-    background-image: url(../images/linechart.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     padding: 5%;
     color: #012045;
+
 }
 .visualisation h2{
     margin-bottom: 30px;
@@ -184,7 +189,7 @@ footer {
 
 /*HEADMAP*/
 #body-chart2{
-    background-image: url(../images/disease.jpg);
+    background-image: url(../images/dead1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 5%;
@@ -209,7 +214,7 @@ footer {
 }
 
 .body-chart2 .col{
-    margin: 20px;
+    margin: 10px;
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.8);
    border-radius: 10px;
@@ -221,7 +226,7 @@ footer {
    border-radius: 10px;
 }
 #body-chart3 .row .col{
-    margin: 20px;
+    margin: 10px;
     padding: 2%;
     background-color:#EEF5FF;
    border-radius: 10px;
@@ -295,9 +300,9 @@ button:hover {
 
 
 #body-chart3{
-    background-image: url(../images/money.jpg);
+    background-image: url(../images/money-p.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 5%;
     color: #012045;
 }
