@@ -192,6 +192,9 @@ footer {
 }
 .body-chart2-text{
     margin:30px 0;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
 }
 .map-background{
     margin-bottom: 6%;
