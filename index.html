@@ -8,14 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="js/charts.js"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -30,29 +39,29 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#visualisation">Visualisation</a>
+                            <a class="nav-link" href="#visualisation">VISUALIZATION</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Charts
+                                CHARTS
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#body-chart1">Chart1</a></li>
@@ -67,7 +76,6 @@
         <div class="title">
             <h1>Determinants of Health</h1>
         </div>
-
         <div class="intro">
             <div class="intro-content">
                 <p>This project is designed specifically for university students pursuing degrees in public health,
@@ -78,20 +86,21 @@
             </div>
             <div class="intro-content">
                 <p>These visualizations explore the intricate relationships and trends within various health-related
-                    data
-                    sets, offering students a practical, engaging, and educational experience.</p>
+                    data sets, offering students a practical, engaging, and educational experience.</p>
             </div>
             <div>
                 <img src="images/hero.png" alt="">
             </div>
         </div>
     </header>
+
+    <!-- About Section -->
     <main>
         <section id="about" class="about">
             <div class="content">
                 <h2>About This Project</h2>
                 <div class="row">
-                    <div class="col">
+                    <div class="col" data-aos="fade-right" data-aos-delay="1000">
                         <h3>Overview</h3>
                         This project is designed specifically for university students pursuing degrees in public health,
                         sociology,
@@ -105,7 +114,7 @@
                         engaging, and educational experience.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-left" data-aos-delay="1200">
                         <h3>Educational Benefits</h3>
                         <p>By engaging with these visualizations, students can enhance their educational experience,
                             supporting
@@ -122,9 +131,12 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- Visualization Section -->
         <section id="visualisation" class="visualisation">
             <div class="content">
-                <h2>Visualisation</h2>
+                <h1>Visualisation</h1>
                 <h3>Purpose of the Visualizations</h3>
                 <p>The visualizations in this project serve to illuminate the complex dynamics of health determinants
                     through three main types of analysis:</p><br>
@@ -179,6 +191,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Line chart -->
         <section id="body-chart1">
             <h2>Trends in Health-Related Lifestyle Choices</h2>
             <div id="chart1"></div>
@@ -197,14 +211,20 @@
             <button class="btn-4" onclick="performAction()">
                 <span class="btn-4-text">Fruit</span>
             </button>
-            <div class="body-chart1-text">  <h3>Purpose</h3>
-            <p>
-                The chart aims to compare critical health factors over the last decade. These factors include the
-                consumption of alcohol, tobacco, obesity, junk food, etc.
-            </p></div>
+
+            <button class="btn-5" onclick="performAction()">
+                <span class="btn-5-text">Vegetables</span>
+            </button>
+            <div class="body-chart1-text" data-aos="fade-right" data-aos-delay="1400"> 
+                 <h3>Purpose</h3>
+                <p>
+                    The chart aims to compare critical health factors over the last decade. These factors include the
+                    consumption of alcohol, tobacco, obesity, junk food, etc.
+                </p>
+            </div>
           
 
-            <div class="body-chart1 row">
+            <div class="body-chart1 row" data-aos="fade-up" data-aos-delay="1600">
                 <div class="col">
                     <h3>Data Representation</h3>
                     <ul>
@@ -214,7 +234,7 @@
                             scale will change based on the factor being displayed.</li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-delay="1800">
                     <h3>Line Characteristics</h3>
                     <ul>
                         <li>Each line on the chart represents a different health factor, such as tobacco, alcohol,
@@ -228,7 +248,10 @@
             </div>
 
 
+        
         </section>
+
+        <!-- Heat Map -->
         <section id="body-chart2">
             <h2>Heatmap of Deaths by Disease and Country</h2>
             <div class="map-background">
@@ -263,7 +286,7 @@
                 </div>
             </div>
 
-            <div class="body-chart2-text">
+            <div class="body-chart2-text" data-aos="fade-up" data-aos-delay="2000">
                 <h3>Purpose</h3>
                 <p>The aim of this visualization is to illustrate the intricate relationship between dietary habits and
                     various diseases, emphasizing the importance of food choices in preventing and managing health
@@ -271,7 +294,7 @@
                     The heatmap visualizes the number of deaths caused by various diseases across different countries
                     for selected years, allowing for an analysis of mortality patterns.</p>
             </div>
-            <div class="body-chart2 row">
+            <div class="body-chart2 row" data-aos="fade-right" data-aos-delay="2200">
                 <div class="col">
                     <h3>Disease Covered</h3>
                     <ul>
@@ -302,7 +325,7 @@
                     </ul>
 
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-delay="2400">
                     <h3>Data Representation</h3>
                     <ul>
                         <li><strong>X-Axis:</strong> Represents different causes of death, such as Pneumonia, Malignant
@@ -360,7 +383,7 @@
                     <div class="tooltip3" id="tooltip" style="opacity:0;"></div>
                 </div>
             </div>
-            <div class="body-chart3-text">
+            <div class="body-chart3-text" data-aos="fade-up" data-aos-delay="2600">
                 <h3>Purpose</h3>
                 <p>
                     The aim of this visualization is to illustrate the economic performance of various countries by
@@ -372,7 +395,7 @@
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-delay="2800">
                     <h3>Economic Indicators Covered</h3>
                     <ul>
                         <li><strong>GDP (ECONPIBN):</strong> Gross Domestic Product, representing the overall economic
@@ -383,7 +406,7 @@
                             exported by a country.</li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-delay="3000">
                     <h3>Data Representation</h3>
                     <ul>
                         <li><strong>X-Axis:</strong>Represents the selected countries from the dataset.</li>
@@ -413,5 +436,26 @@
         <p>© TEAM CL03_T04. 2024 Swinburne University of Technology</p>
     </footer>
 </body>
+
+
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  // AOS.init();
+  AOS.init({
+    delay: 100, // values from 0 to 3000, with step 50ms
+    duration: 1200, // values from 0 to 3000, with step 50ms
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.1/typed.min.js"></script>
+
+
+
+
 
 </html>
