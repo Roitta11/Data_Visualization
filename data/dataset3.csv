@@ -413,17 +413,17 @@ ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Chile,2019
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Chile,2020,125.2
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Chile,2021,133.7
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Chile,2022,142.6
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2010,87.6
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2011,94.7
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2012,96.9
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2013,99
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2014,100
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2015,100
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2016,101.4
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2017,105.7
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2018,109.4
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2019,110.6
-ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China (People's Republic of),2020,111.4
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2010,87.6
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2011,94.7
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2012,96.9
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2013,99
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2014,100
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2015,100
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2016,101.4
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2017,105.7
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2018,109.4
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2019,110.6
+ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),China,2020,111.4
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Estonia,2010,84.2
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Estonia,2011,88.8
 ECONPIBN,Gross domestic product (GDP),INDICEIP,Price index (2015=100),Estonia,2012,92.4
@@ -926,19 +926,19 @@ ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency unit
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Chile,2020,201428894.2
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Chile,2021,240371473.1
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Chile,2022,262593355.8
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2010,41211930
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2011,48794020
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2012,53858000
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2013,59296320
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2014,64356310
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2015,68885820
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2016,74639510
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2017,83203600
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2018,91928110
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2019,98651520
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2020,101356700
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2021,114923700
-ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China (People's Republic of),2022,121020720
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2010,41211930
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2011,48794020
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2012,53858000
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2013,59296320
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2014,64356310
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2015,68885820
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2016,74639510
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2017,83203600
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2018,91928110
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2019,98651520
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2020,101356700
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2021,114923700
+ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,China,2022,121020720
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Estonia,2010,14741.1
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Estonia,2011,16677.3
 ECONPIBN,Gross domestic product (GDP),MLLNCUMT,Million of national currency units,Estonia,2012,17916.7
@@ -1884,19 +1884,19 @@ CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Chile,2019,70
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Chile,2020,792.7
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Chile,2021,759
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Chile,2022,873.3
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2010,6.8
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2011,6.5
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2012,6.3
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2013,6.2
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2014,6.1
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2015,6.2
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2016,6.6
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2017,6.8
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2018,6.6
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2019,6.9
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2020,6.9
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2021,6.4
-CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China (People's Republic of),2022,6.7
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2010,6.8
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2011,6.5
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2012,6.3
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2013,6.2
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2014,6.1
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2015,6.2
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2016,6.6
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2017,6.8
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2018,6.6
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2019,6.9
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2020,6.9
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2021,6.4
+CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,China,2022,6.7
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Estonia,2010,0.8
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Estonia,2011,0.7
 CONVCHAN,US$ exchange rate,TXUSDLTX,National currency unit per US$,Estonia,2012,0.8
@@ -2403,19 +2403,19 @@ CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency un
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Chile,2020,418.4
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Chile,2021,435.2
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Chile,2022,437.6
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2010,3.3
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2011,3.5
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2012,3.6
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2013,3.7
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2014,3.8
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2015,3.9
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2016,4
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2017,4.2
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2018,4.2
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2019,4.2
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2020,4.2
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2021,4.2
-CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2022,4
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2010,3.3
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2011,3.5
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2012,3.6
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2013,3.7
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2014,3.8
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2015,3.9
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2016,4
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2017,4.2
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2018,4.2
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2019,4.2
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2020,4.2
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2021,4.2
+CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2022,4
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Estonia,2010,0.5
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Estonia,2011,0.5
 CONVPPAC,"Purchasing Power Parities for GDP, US$",TXNUPPTX,"National currency unit per US$, PPP",Estonia,2012,0.5
@@ -2922,19 +2922,19 @@ CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,C
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Chile,2020,792727206
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Chile,2021,758955379
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Chile,2022,873314190
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2010,6770269
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2011,6461461
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2012,6312333
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2013,6195758
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2014,6143434
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2015,6227489
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2016,6644478
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2017,6758755
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2018,6615957
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2019,6908385
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2020,6900767
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2021,6448975
-CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China (People's Republic of),2022,6737158
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2010,6770269
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2011,6461461
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2012,6312333
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2013,6195758
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2014,6143434
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2015,6227489
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2016,6644478
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2017,6758755
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2018,6615957
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2019,6908385
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2020,6900767
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2021,6448975
+CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,China,2022,6737158
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Estonia,2010,754595
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Estonia,2011,718414
 CONVCHAN,US$ exchange rate,MLUSDXRA,Millions of national currency unit per US$,Estonia,2012,778338
@@ -3440,19 +3440,19 @@ ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Chil
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Chile,2020,254096.1
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Chile,2021,316713.6
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Chile,2022,300686
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2010,6087192.4
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2011,7551546
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2012,8532186.1
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2013,9570470.6
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2014,10475624.9
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2015,11061572.3
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2016,11233314.3
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2017,12310492.1
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2018,13894907.4
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2019,14279968.5
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2020,14687744.1
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2021,17820459.8
-ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China (People's Republic of),2022,17963170.8
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2010,6087192.4
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2011,7551546
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2012,8532186.1
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2013,9570470.6
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2014,10475624.9
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2015,11061572.3
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2016,11233314.3
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2017,12310492.1
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2018,13894907.4
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2019,14279968.5
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2020,14687744.1
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2021,17820459.8
+ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,China,2022,17963170.8
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Estonia,2010,19535.1
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Estonia,2011,23214
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Estonia,2012,23019.2
@@ -3959,19 +3959,19 @@ ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power pa
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Chile,2020,481373.7
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Chile,2021,552379.8
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Chile,2022,600128.5
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2010,12380167.2
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2011,13844364.6
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2012,15124539.2
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2013,16185061.6
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2014,17121276.5
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2015,17796748.2
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2016,18712098.3
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2017,19887036
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2018,21736534.9
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2019,23441908.2
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2020,24255795.9
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2021,27445501.2
-ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China (People's Republic of),2022,30090696.7
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2010,12380167.2
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2011,13844364.6
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2012,15124539.2
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2013,16185061.6
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2014,17121276.5
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2015,17796748.2
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2016,18712098.3
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2017,19887036
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2018,21736534.9
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2019,23441908.2
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2020,24255795.9
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2021,27445501.2
+ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",China,2022,30090696.7
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Estonia,2010,28784.3
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Estonia,2011,32598.2
 ECONPIBN,Gross domestic product (GDP),MTMOPPMT,"Million US$, purchasing power parity",Estonia,2012,34384.9
@@ -4477,17 +4477,17 @@ ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price lev
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Chile,2020,160854577
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Chile,2021,179734771.9
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Chile,2022,184121024.8
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2010,47043160.2
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2011,51536169.9
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2012,55588829.9
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2013,59905940.2
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2014,64354419.9
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2015,68885820
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2016,73603649.8
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2017,78717039.7
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2018,84030259.7
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2019,89164609.7
-ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China (People's Republic of),2020,91023559.8
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2010,47043160.2
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2011,51536169.9
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2012,55588829.9
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2013,59905940.2
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2014,64354419.9
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2015,68885820
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2016,73603649.8
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2017,78717039.7
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2018,84030259.7
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2019,89164609.7
+ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,China,2020,91023559.8
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Estonia,2010,17503.8
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Estonia,2011,18775.1
 ECONPIBN,Gross domestic product (GDP),VALRELMT,Million NCU at 2015 GDP price level,Estonia,2012,19381.2
@@ -4990,19 +4990,19 @@ ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Chile,2020,10351818.5
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Chile,2021,12215013.7
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Chile,2022,13243186.4
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2010,30568.3
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2011,35954.7
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2012,39411.3
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2013,43090.1
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2014,46460.3
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2015,49426
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2016,53242.1
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2017,58998.1
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2018,64872
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2019,69381.8
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2020,71131
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2021,80597.7
-ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China (People's Republic of),2022,84874
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2010,30568.3
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2011,35954.7
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2012,39411.3
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2013,43090.1
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2014,46460.3
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2015,49426
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2016,53242.1
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2017,58998.1
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2018,64872
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2019,69381.8
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2020,71131
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2021,80597.7
+ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",China,2022,84874
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Estonia,2010,11071.3
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Estonia,2011,12563.5
 ECONPIBN,Gross domestic product (GDP),UNPPERMT,"/capita, national currency units",Estonia,2012,13545.6
@@ -5509,19 +5509,19 @@ ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Chil
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Chile,2020,13058.5
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Chile,2021,16094.5
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Chile,2022,15164.3
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2010,4515.1
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2011,5564.5
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2012,6243.5
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2013,6954.8
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2014,7562.6
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2015,7936.8
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2016,8013
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2017,8729.1
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2018,9805.4
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2019,10043.1
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2020,10307.7
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2021,12497.7
-ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China (People's Republic of),2022,12597.9
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2010,4515.1
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2011,5564.5
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2012,6243.5
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2013,6954.8
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2014,7562.6
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2015,7936.8
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2016,8013
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2017,8729.1
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2018,9805.4
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2019,10043.1
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2020,10307.7
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2021,12497.7
+ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",China,2022,12597.9
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Estonia,2010,14671.8
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Estonia,2011,17487.8
 ECONPIBN,Gross domestic product (GDP),TCPPERMT,"/capita, US$ exchange rate",Estonia,2012,17403.2
@@ -6028,19 +6028,19 @@ ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power pa
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Chile,2020,24738.7
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Chile,2021,28070.4
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Chile,2022,30265.9
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2010,9182.8
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2011,10201.5
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2012,11067.6
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2013,11761.5
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2014,12360.2
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2015,12769.3
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2016,13347.8
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2017,14101.5
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2018,15339.1
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2019,16486.7
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2020,17022.4
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2021,19247.9
-ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China (People's Republic of),2022,21103.1
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2010,9182.8
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2011,10201.5
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2012,11067.6
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2013,11761.5
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2014,12360.2
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2015,12769.3
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2016,13347.8
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2017,14101.5
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2018,15339.1
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2019,16486.7
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2020,17022.4
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2021,19247.9
+ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",China,2022,21103.1
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Estonia,2010,21618.4
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Estonia,2011,24557.2
 ECONPIBN,Gross domestic product (GDP),PPPPERMT,"/capita, US$ purchasing power parity",Estonia,2012,25996
@@ -6546,17 +6546,17 @@ ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price l
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Chile,2020,8266626.3
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Chile,2021,9133624.2
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Chile,2022,9285646.4
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2010,34893.5
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2011,37975.3
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2012,40677.9
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2013,43533.1
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2014,46458.9
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2015,49426
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2016,52503.2
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2017,55816.8
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2018,59298.6
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2019,62709.7
-ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China (People's Republic of),2020,63879.3
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2010,34893.5
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2011,37975.3
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2012,40677.9
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2013,43533.1
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2014,46458.9
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2015,49426
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2016,52503.2
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2017,55816.8
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2018,59298.6
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2019,62709.7
+ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",China,2020,63879.3
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Estonia,2010,13146.2
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Estonia,2011,14143.9
 ECONPIBN,Gross domestic product (GDP),REPPERMT,"/capita, NCU at 2015 GDP price level",Estonia,2012,14652.8
@@ -8627,18 +8627,18 @@ CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"Nati
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Austria,2020,0.8
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Austria,2021,0.8
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Austria,2022,0.8
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2010,3.6
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2011,3.7
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2012,3.7
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2013,3.8
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2014,3.9
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2015,4
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2016,4.1
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2017,4.1
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2018,4.1
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2019,4.2
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2020,4.2
-CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2021,4.1
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2010,3.6
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2011,3.7
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2012,3.7
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2013,3.8
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2014,3.9
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2015,4
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2016,4.1
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2017,4.1
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2018,4.1
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2019,4.2
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2020,4.2
+CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2021,4.1
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Israel,2010,4.4
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Israel,2011,4.3
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Israel,2012,4.3
@@ -9108,18 +9108,18 @@ CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"Nati
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Argentina,2015,8
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Argentina,2016,10.8
 CONVPVCP,"Purchasing Power Parities for private consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",Argentina,2017,10.8
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2011,3.5
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2012,3.5
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2013,3.6
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2014,3.7
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2015,3.8
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2016,3.9
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2017,4
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2018,4.1
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2019,4.1
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2020,4
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2021,4
-CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China (People's Republic of),2022,3.9
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2011,3.5
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2012,3.5
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2013,3.6
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2014,3.7
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2015,3.8
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2016,3.9
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2017,4
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2018,4.1
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2019,4.1
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2020,4
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2021,4
+CONVAICP,"Purchasing Power Parities for actual individual consumption, US$",TXNUPPTX,"National currency unit per US$, PPP",China,2022,3.9
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Croatia,2010,60672.1
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Croatia,2011,63408.3
 ECONPIBN,Gross domestic product (GDP),MTMOTCMT,Million US$ at exchange rate,Croatia,2012,57369.4
@@ -9636,17 +9636,17 @@ ECONAVPW,Average annual wages,NATCUNMT,Current prices in NCU,Costa Rica,2018,934
 ECONAVPW,Average annual wages,NATCUNMT,Current prices in NCU,Costa Rica,2019,9846887
 ECONAVPW,Average annual wages,NATCUNMT,Current prices in NCU,Costa Rica,2020,10894819
 ECONAVPW,Average annual wages,NATCUNMT,Current prices in NCU,Costa Rica,2021,11085732.4
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2010,87.6
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2011,94.7
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2012,96.9
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2013,99
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2014,100
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2015,100
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2016,101.4
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2017,105.7
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2018,109.4
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2019,110.6
-ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China (People's Republic of),2020,111.4
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2010,87.6
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2011,94.7
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2012,96.9
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2013,99
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2014,100
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2015,100
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2016,101.4
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2017,105.7
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2018,109.4
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2019,110.6
+ECONAICO,Actual individual consumption (AIC),INDICEIP,Price index (2015=100),China,2020,111.4
 ECONFCEX,Final Consumption Expenditure,INDICEIP,Price index (2015=100),France,2010,96.3
 ECONFCEX,Final Consumption Expenditure,INDICEIP,Price index (2015=100),France,2011,97.8
 ECONFCEX,Final Consumption Expenditure,INDICEIP,Price index (2015=100),France,2012,99

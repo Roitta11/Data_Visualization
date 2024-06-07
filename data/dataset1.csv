@@ -351,17 +351,17 @@ FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Chile,2017,90.6
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Chile,2018,91.1
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Chile,2019,95.8
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Chile,2020,100.5
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2010,94
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2011,92.8
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2012,93.8
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2013,95.1
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2014,97.8
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2015,99.2
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2016,101.5
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2017,101.6
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2018,103.3
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2019,102.6
-FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China (People's Republic of),2020,103.6
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2010,94
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2011,92.8
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2012,93.8
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2013,95.1
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2014,97.8
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2015,99.2
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2016,101.5
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2017,101.6
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2018,103.3
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2019,102.6
+FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,China,2020,103.6
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Estonia,2010,92
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Estonia,2011,88.9
 FOODTFAT,Total fat supply,PROPERQT,Grams per capita per day,Estonia,2012,93.8
@@ -791,17 +791,17 @@ FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Chile,20
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Chile,2018,3066
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Chile,2019,3107
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Chile,2020,3154
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2010,3098
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2011,3111
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2012,3141
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2013,3148
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2014,3202
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2015,3251
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2016,3267
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2017,3293
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2018,3305
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2019,3318
-FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China (People's Republic of),2020,3337
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2010,3098
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2011,3111
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2012,3141
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2013,3148
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2014,3202
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2015,3251
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2016,3267
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2017,3293
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2018,3305
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2019,3318
+FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,China,2020,3337
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Estonia,2010,3305
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Estonia,2011,3282
 FOODCALT,Total calories supply,CALPERQT,Kilocalories per capita per day,Estonia,2012,3223
@@ -1231,17 +1231,17 @@ FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Chile,2017,91
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Chile,2018,93.5
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Chile,2019,93.2
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Chile,2020,92.5
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2010,95.3
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2011,95.9
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2012,96.7
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2013,97.4
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2014,99.3
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2015,101.3
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2016,102.9
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2017,104.1
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2018,104.6
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2019,105.8
-FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China (People's Republic of),2020,106.5
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2010,95.3
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2011,95.9
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2012,96.7
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2013,97.4
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2014,99.3
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2015,101.3
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2016,102.9
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2017,104.1
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2018,104.6
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2019,105.8
+FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,China,2020,106.5
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Estonia,2010,98.4
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Estonia,2011,98.6
 FOODPROT,Total protein supply,PROPERQT,Grams per capita per day,Estonia,2012,96.5
@@ -1671,17 +1671,17 @@ FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Chile,2017,47.1
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Chile,2018,45.9
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Chile,2019,41.2
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Chile,2020,44.9
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2010,7.3
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2011,7.5
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2012,7.6
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2013,7.8
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2014,8.4
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2015,8.4
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2016,7.4
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2017,8.6
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2018,7.7
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2019,8.2
-FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2020,8.9
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2010,7.3
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2011,7.5
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2012,7.6
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2013,7.8
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2014,8.4
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2015,8.4
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2016,7.4
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2017,8.6
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2018,7.7
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2019,8.2
+FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,China,2020,8.9
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Estonia,2010,73.6
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Estonia,2011,72.3
 FOODSUCR,Sugar supply,KGPPERNB,Kilos per capita per year,Estonia,2012,74.6
@@ -2111,17 +2111,17 @@ FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Chile,2017,56.5
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Chile,2018,52.8
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Chile,2019,57.4
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Chile,2020,74
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2010,75.8
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2011,81
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2012,86.1
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2013,88.9
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2014,91.6
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2015,93.4
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2016,93.9
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2017,95.7
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2018,99.2
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2019,101.4
-FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2020,99
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2010,75.8
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2011,81
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2012,86.1
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2013,88.9
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2014,91.6
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2015,93.4
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2016,93.9
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2017,95.7
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2018,99.2
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2019,101.4
+FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,China,2020,99
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Estonia,2010,57.4
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Estonia,2011,56.5
 FOODFRUI,Fruits supply,KGPPERNB,Kilos per capita per year,Estonia,2012,58.4
@@ -3491,16 +3491,16 @@ ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Chile,2016,6.4
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Chile,2017,5.7
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Chile,2018,6.3
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Chile,2019,7.1
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2010,5.8
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2011,5.4
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2012,5.5
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2013,5.6
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2014,5.7
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2015,5.7
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2016,5.6
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2017,5.3
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2018,4.8
-ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China (People's Republic of),2019,4.5
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2010,5.8
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2011,5.4
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2012,5.5
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2013,5.6
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2014,5.7
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2015,5.7
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2016,5.6
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2017,5.3
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2018,4.8
+ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),China,2019,4.5
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Estonia,2010,11.4
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Estonia,2011,12
 ACOLALCT,Alcohol consumption,LIPPERNB,Litres per capita (15+),Estonia,2012,12.1
@@ -5352,21 +5352,21 @@ TOBATBCT,Tobacco consumption,YNGPPHPH,% of males aged 15-24 years old who are da
 TOBATBCT,Tobacco consumption,YNGPPHPH,% of males aged 15-24 years old who are daily smokers,Chile,2020,6.9
 TOBATBCT,Tobacco consumption,YNGPPFPF,% of females aged 15-24 years old who are daily smokers,Chile,2016,14
 TOBATBCT,Tobacco consumption,YNGPPFPF,% of females aged 15-24 years old who are daily smokers,Chile,2020,8.7
-TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China (People's Republic of),2010,2.4
-TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China (People's Republic of),2015,2.2
-TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China (People's Republic of),2018,2.1
-TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China (People's Republic of),2019,2.1
-TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China (People's Republic of),2020,2.1
-TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China (People's Republic of),2010,49.2
-TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China (People's Republic of),2015,48.6
-TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China (People's Republic of),2018,47.9
-TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China (People's Republic of),2019,48
-TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China (People's Republic of),2020,47.8
-TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China (People's Republic of),2010,26.2
-TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China (People's Republic of),2015,25.8
-TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China (People's Republic of),2018,25.4
-TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China (People's Republic of),2019,25.4
-TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China (People's Republic of),2020,25.3
+TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China,2010,2.4
+TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China,2015,2.2
+TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China,2018,2.1
+TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China,2019,2.1
+TOBATBCT,Tobacco consumption,PDLSFMTF,% of females aged 15+ who are daily smokers,China,2020,2.1
+TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China,2010,49.2
+TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China,2015,48.6
+TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China,2018,47.9
+TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China,2019,48
+TOBATBCT,Tobacco consumption,PDLSHOTH,% of males aged 15+ who are daily smokers,China,2020,47.8
+TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China,2010,26.2
+TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China,2015,25.8
+TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China,2018,25.4
+TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China,2019,25.4
+TOBATBCT,Tobacco consumption,PDLSTOTX,% of population aged 15+ who are daily smokers,China,2020,25.3
 TOBATBCT,Tobacco consumption,NBPFUMNB,Cigarettes per smoker per day,Estonia,2010,13
 TOBATBCT,Tobacco consumption,NBPFUMNB,Cigarettes per smoker per day,Estonia,2012,13
 TOBATBCT,Tobacco consumption,NBPFUMNB,Cigarettes per smoker per day,Estonia,2014,12
@@ -6502,9 +6502,9 @@ BODYOBSR,"Obese population, self-reported",PERMANTH,% of males,Chile,2015,7.9
 BODYOBSR,"Obese population, self-reported",PERMANTH,% of males,Chile,2021,24.1
 BODYOBSR,"Obese population, self-reported",TOTPOPTX,% of total population,Chile,2015,10.1
 BODYOBSR,"Obese population, self-reported",TOTPOPTX,% of total population,Chile,2021,26.4
-BODYOBSR,"Obese population, self-reported",PERWOMTF,% of females,China (People's Republic of),2014,8
-BODYOBSR,"Obese population, self-reported",PERMANTH,% of males,China (People's Republic of),2014,5.9
-BODYOBSR,"Obese population, self-reported",TOTPOPTX,% of total population,China (People's Republic of),2014,7
+BODYOBSR,"Obese population, self-reported",PERWOMTF,% of females,China,2014,8
+BODYOBSR,"Obese population, self-reported",PERMANTH,% of males,China,2014,5.9
+BODYOBSR,"Obese population, self-reported",TOTPOPTX,% of total population,China,2014,7
 BODYOBSR,"Obese population, self-reported",PERWOMTF,% of females,Estonia,2010,16.8
 BODYOBSR,"Obese population, self-reported",PERWOMTF,% of females,Estonia,2012,19.3
 BODYOBSR,"Obese population, self-reported",PERWOMTF,% of females,Estonia,2014,19.9
@@ -7559,27 +7559,27 @@ BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,Brazil,2019
 BODYOBMS,"Obese population, measured",PERWOMTF,% of females,Chile,2016,38.4
 BODYOBMS,"Obese population, measured",PERMANTH,% of males,Chile,2016,30.2
 BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,Chile,2016,34.4
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2010,5.1
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2011,5.4
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2012,5.7
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2013,6
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2014,6.4
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2015,6.7
-BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China (People's Republic of),2016,7.1
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2010,4
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2011,4.3
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2012,4.6
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2013,5
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2014,5.4
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2015,5.8
-BODYOBMS,"Obese population, measured",PERMANTH,% of males,China (People's Republic of),2016,6.2
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2010,4.5
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2011,4.8
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2012,5.1
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2013,5.5
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2014,5.8
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2015,6.2
-BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China (People's Republic of),2016,6.6
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2010,5.1
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2011,5.4
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2012,5.7
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2013,6
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2014,6.4
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2015,6.7
+BODYOBMS,"Obese population, measured",PERWOMTF,% of females,China,2016,7.1
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2010,4
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2011,4.3
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2012,4.6
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2013,5
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2014,5.4
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2015,5.8
+BODYOBMS,"Obese population, measured",PERMANTH,% of males,China,2016,6.2
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2010,4.5
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2011,4.8
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2012,5.1
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2013,5.5
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2014,5.8
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2015,6.2
+BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,China,2016,6.6
 BODYOBMS,"Obese population, measured",PERWOMTF,% of females,Estonia,2014,18.5
 BODYOBMS,"Obese population, measured",PERMANTH,% of males,Estonia,2014,17.4
 BODYOBMS,"Obese population, measured",TOTPOPTX,% of total population,Estonia,2014,18
@@ -8247,17 +8247,17 @@ FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Chile,2017,72.1
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Chile,2018,77
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Chile,2019,71.9
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Chile,2020,73.3
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2010,317.3
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2011,325.2
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2012,329.1
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2013,333.9
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2014,340.4
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2015,355.9
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2016,360.8
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2017,368.5
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2018,374.7
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2019,371.5
-FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China (People's Republic of),2020,374.5
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2010,317.3
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2011,325.2
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2012,329.1
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2013,333.9
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2014,340.4
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2015,355.9
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2016,360.8
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2017,368.5
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2018,374.7
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2019,371.5
+FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,China,2020,374.5
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Estonia,2010,100.5
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Estonia,2011,111.6
 FOODVEGG,Vegetables supply,KGPPERNB,Kilos per capita per year,Estonia,2012,94.7
