@@ -60,6 +60,9 @@ nav img {
   justify-content: space-between;
   align-items: center;
 }
+.title h1{
+  color: #fff;
+}
 
 h1 {
   text-align: center;
